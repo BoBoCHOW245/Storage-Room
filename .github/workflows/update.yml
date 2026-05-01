@@ -1,17 +1,24 @@
 name: TVBox Auto Update
 
 on:
-  schedule:
-    - cron: "0 */6 * * *"  # 每6小时更新一次
   workflow_dispatch:
+  push:
+  schedule:
+    - cron: "0 */6 * * *"
+
+# 关键：给 Action 写入仓库的权限！
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # 必须开启，否则无法推送
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -26,8 +33,10 @@ jobs:
 
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add TVBox-Auto/tvbox_final.json
-          git commit -m "auto update tvbox" || exit 0
-          git push
+          # 即使没变化也不报错
+          git commit -m "auto update tvbox" --allow-empty || exit 0
+          # 用仓库的 token 推送
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
