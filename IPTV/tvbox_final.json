@@ -3,11 +3,10 @@
   "wallpaper": "https://picsum.photos/1280/720",
   "sites": [
     {
-      "key": "wex",
-      "name": "点播源",
+      "key": "wex影视",
+      "name": "点播系统（直接入口）",
       "type": 3,
-      "api": "csp_WexconfigGuard",
-      "ext": "https://9280.kstore.space/wex.json"
+      "api": "csp_WexconfigGuard"
     }
   ],
   "parses": [],
@@ -16,7 +15,7 @@
       "name": "直播源",
       "type": 0,
       "playerType": 2,
-      "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u"
+      "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/main/best_sorted.m3u"
     }
   ]
 }
