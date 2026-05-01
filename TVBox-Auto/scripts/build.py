@@ -35,7 +35,7 @@ def build():
         "lives": lives
     }
 
-    with open("tvbox_final.json", "w", encoding="utf-8") as f:
+    with open("TVBox-Auto/tvbox_final.json", "w", encoding="utf-8") as f:
         json.dump(final, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
