@@ -53,15 +53,15 @@ def build():
 
     # 3. 写入三个文件
     # 写入 tvbox_final.json
-    with open("TVBox-Auto/tvbox_final.json", "w", encoding="utf-8") as f:
+    with open("TVBox-Auto/data/tvbox_final.json", "w", encoding="utf-8") as f:
         json.dump(final_config, f, ensure_ascii=False, indent=2)
 
     # 写入 wex.json（保存完整原始数据）
-    with open("TVBox-Auto/wex.json", "w", encoding="utf-8") as f:
+    with open("TVBox-Auto/data/wex.json", "w", encoding="utf-8") as f:
         json.dump(wex_data, f, ensure_ascii=False, indent=2)
 
     # 写入 live.m3u（保存原始 m3u 内容）
-    with open("TVBox-Auto/live.m3u", "w", encoding="utf-8") as f:
+    with open("TVBox-Auto/data/live.m3u", "w", encoding="utf-8") as f:
         f.write("\n".join(live_lines) + "\n")
 
 if __name__ == "__main__":
