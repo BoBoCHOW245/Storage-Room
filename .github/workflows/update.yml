@@ -22,12 +22,12 @@ jobs:
         run: pip install requests
 
       - name: Build TVBox config
-        run: python scripts/build.py
+        run: python TVBox-Auto/scripts/build.py
 
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add tvbox_final.json
+          git add TVBox-Auto/tvbox_final.json
           git commit -m "auto update tvbox" || exit 0
           git push
