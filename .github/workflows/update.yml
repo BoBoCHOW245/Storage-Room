@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: "0 */6 * * *"  # 每6小时更新一次
+    - cron: "0 */6 * * *"
 
 permissions:
   contents: write
@@ -30,9 +30,9 @@ jobs:
       - name: Commit & Push
         run: |
           git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add TVBox-Auto/tvbox_final.json
-          git add TVBox-Auto/wex.json
-          git add TVBox-Auto/live.m3u
-          git commit -m "auto update tvbox configs" || exit 0
+          git config user.email github-actions@users.noreply.github.com
+          git add TVBox-Auto/data/tvbox_final.json
+          git add TVBox-Auto/data/wex.json
+          git add TVBox-Auto/data/live.m3u
+          git commit -m "auto update tvbox" || exit 0
           git push
