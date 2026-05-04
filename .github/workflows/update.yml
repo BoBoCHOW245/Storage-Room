@@ -4,10 +4,14 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "0 */6 * * *"
 
 permissions:
   contents: write
+
+# 解决Node.js 20废弃警告
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build:
@@ -24,19 +28,21 @@ jobs:
       - name: Install requests
         run: pip install requests
 
-      - name: Build TVBox config
-        run: python TVBox-Auto/scripts/build.py
+      # 关键：先检查脚本运行是否成功，打印日志方便排查
+      - name: Build TVBox config (only live.m3u)
+        run: |
+          echo "开始运行Python脚本生成live.m3u..."
+          python TVBox-Auto/scripts/build.py
+          # 检查文件是否生成（打印文件内容，方便排查）
+          ls -l TVBox-Auto/data/
+          cat TVBox-Auto/data/live.m3u || echo "live.m3u文件不存在！"
 
-      - name: Commit & Push
+      - name: Commit & Push (only live.m3u)
         run: |
           git config user.name github-actions
           git config user.email github-actions@users.noreply.github.com
-          # git add TVBox-Auto/data/tvbox_final.json
-          # git add TVBox-Auto/data/wex.json
+          # 只添加live.m3u
           git add TVBox-Auto/data/live.m3u
-          git commit -m "auto update tvbox" || exit 0
+          # 提交：如果没变化就不报错（避免exit code 1）
+          git commit -m "auto update live.m3u" || echo "没有更新，跳过提交"
           git push
-
-# 关闭失败邮件通知
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
