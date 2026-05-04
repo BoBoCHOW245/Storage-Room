@@ -31,11 +31,12 @@ jobs:
       - name: Build TVBox config
         run: python TVBox-Auto/scripts/build.py
 
-      - name: Commit & Push
+      - name: Commit & Push (only live.m3u and lives.json)
         run: |
           git config user.name github-actions
           git config user.email github-actions@users.noreply.github.com
-          # 只保留下面这一行，其他都删掉
+          # 新增提交lives.json
+          git add TVBox-Auto/data/lives.json
           git add TVBox-Auto/data/live.m3u
-          git commit -m "auto update live.m3u" || exit 0
+          git commit -m "auto update live.m3u and lives.json" || echo "没有更新，跳过提交"
           git push
