@@ -1,9 +1,15 @@
 [
   {
-    "name": "CCTV-4 中文国际",
+    "name": "CCTV3",
     "type": 0,
     "playerType": 2,
-    "url": "https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mbd.m3u8?auth_key=1792429200-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-df0ff7452f29ac529939f89d1d45d647&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c"
+    "url": "http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0"
+  },
+  {
+    "name": "CCTV-4K 高清",
+    "type": 0,
+    "playerType": 2,
+    "url": "https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1792454400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-16f7989e3194a7e1e1c0d8c08e7e085b&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c"
   },
   {
     "name": "CCTV5",
@@ -21,7 +27,7 @@
     "name": "CCTV-9 纪录",
     "type": 0,
     "playerType": 2,
-    "url": "https://v4-e6b1c5baf4e240fe63adbf68dda23435.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=991b73283e48b3186412977fec8161bf"
+    "url": "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=4ba3dbe1620128152011b0624c30d895"
   },
   {
     "name": "CCTV12",
@@ -46,12 +52,6 @@
     "type": 0,
     "playerType": 2,
     "url": "http://gmxw.7766.org:808/hls/169/index.m3u8"
-  },
-  {
-    "name": "CCTV-16 4K",
-    "type": 0,
-    "playerType": 2,
-    "url": "https://piccpndks.v.kcdnvip.com/audio/cctv16_2/index.m3u8"
   },
   {
     "name": "CCTV17",
@@ -105,13 +105,13 @@
     "name": "CGTN英语",
     "type": 0,
     "playerType": 2,
-    "url": "http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8"
+    "url": "https://0472.org/hls/cgtn.m3u8"
   },
   {
     "name": "CGTN西语",
     "type": 0,
     "playerType": 2,
-    "url": "https://0472.org/hls/cgtnx.m3u8"
+    "url": "http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8"
   },
   {
     "name": "CGTN记录",
@@ -123,7 +123,7 @@
     "name": "CGTN阿语",
     "type": 0,
     "playerType": 2,
-    "url": "https://0472.org/hls/cgtna.m3u8"
+    "url": "http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8"
   },
   {
     "name": "兵器科技",
@@ -156,6 +156,12 @@
     "url": "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8"
   },
   {
+    "name": "云南卫视",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://101.66.195.137:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0"
+  },
+  {
     "name": "人间卫视",
     "type": 0,
     "playerType": 2,
@@ -186,16 +192,28 @@
     "url": "http://e2.woc.iiiya.cn:28888/rtp/239.61.2.11:8060"
   },
   {
+    "name": "吉林卫视",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://101.66.195.192:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0"
+  },
+  {
     "name": "四川卫视",
     "type": 0,
     "playerType": 2,
-    "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+    "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
   },
   {
     "name": "大湾区卫视",
     "type": 0,
     "playerType": 2,
     "url": "http://222.128.55.152:9080/live/dwq.m3u8"
+  },
+  {
+    "name": "天津卫视",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://222.169.85.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0"
   },
   {
     "name": "宁夏卫视",
@@ -216,6 +234,12 @@
     "url": "http://gmxw.7766.org:808/hls/40/index.m3u8"
   },
   {
+    "name": "山东卫视",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://101.66.195.192:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0"
+  },
+  {
     "name": "山东教育",
     "type": 0,
     "playerType": 2,
@@ -232,6 +256,12 @@
     "type": 0,
     "playerType": 2,
     "url": "https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4"
+  },
+  {
+    "name": "广西卫视",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://101.66.195.192:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0"
   },
   {
     "name": "延边卫视",
@@ -300,6 +330,12 @@
     "url": "http://nn.7x9d.cn/深圳最新.php?id=szws4k"
   },
   {
+    "name": "湖北卫视",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://101.66.195.137:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=0&authid=0"
+  },
+  {
     "name": "湖南卫视",
     "type": 0,
     "playerType": 2,
@@ -312,16 +348,22 @@
     "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=as"
   },
   {
-    "name": "甘肃卫视",
-    "type": 0,
-    "playerType": 2,
-    "url": "http://218.13.170.98:9901/tsfile/live/0141_1.m3u8"
-  },
-  {
     "name": "西藏卫视",
     "type": 0,
     "playerType": 2,
     "url": "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0"
+  },
+  {
+    "name": "贵州卫视",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://101.66.195.137:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0"
+  },
+  {
+    "name": "辽宁卫视",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://101.66.195.137:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0"
   },
   {
     "name": "陕西卫视",
@@ -513,7 +555,7 @@
     "name": "金鹰卡通",
     "type": 0,
     "playerType": 2,
-    "url": "http://101.66.195.137:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0"
+    "url": "http://101.66.195.192:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0"
   },
   {
     "name": "东丰",
@@ -732,12 +774,6 @@
     "url": "https://play.scrstv.com.cn/DT/live.m3u8?auth_key=60001724663204-0-0-c1cc4ded9841ac34f63cdbd3aec647ef"
   },
   {
-    "name": "剑阁综合",
-    "type": 0,
-    "playerType": 2,
-    "url": "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8"
-  },
-  {
     "name": "叙州新闻综合",
     "type": 0,
     "playerType": 2,
@@ -792,28 +828,10 @@
     "url": "http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8"
   },
   {
-    "name": "广元公共",
-    "type": 0,
-    "playerType": 2,
-    "url": "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8"
-  },
-  {
-    "name": "广元综合",
-    "type": 0,
-    "playerType": 2,
-    "url": "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8"
-  },
-  {
     "name": "广安公共",
     "type": 0,
     "playerType": 2,
     "url": "http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd"
-  },
-  {
-    "name": "朝天综合",
-    "type": 0,
-    "playerType": 2,
-    "url": "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8"
   },
   {
     "name": "松潘新闻综合",
@@ -855,7 +873,7 @@
     "name": "金川新闻综合",
     "type": 0,
     "playerType": 2,
-    "url": "http://live.jinchuanrmt.com:90/live/zhxw.m3u8?zsicd"
+    "url": "http://139.203.180.9:90/live/zhxw.m3u8"
   },
   {
     "name": "雅安新闻综合",
@@ -874,12 +892,6 @@
     "type": 0,
     "playerType": 2,
     "url": "http://play.jinnantv.top/live/JNTV1.m3u8?ztianjd"
-  },
-  {
-    "name": "滨海新闻综合",
-    "type": 0,
-    "playerType": 2,
-    "url": "http://traffic.jbh.tjbh.com/live/bhtv10/playlist.m3u8"
   },
   {
     "name": "大立电视台",
@@ -999,13 +1011,19 @@
     "name": "浙江国际",
     "type": 0,
     "playerType": 2,
-    "url": "http://ali-m-l.cztv.com/channels/lantian/channel010/720p.m3u8"
+    "url": "http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8"
   },
   {
     "name": "浙江经济生活",
     "type": 0,
     "playerType": 2,
     "url": "http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8"
+  },
+  {
+    "name": "湖南国际频道",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTA2LjE0LjM4LjU1JnRlcm09NSZtYWNpZD02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJnFpZD0mcmF1dGhfZW5hYmxlPW9uJmNkbmV4X2lkPWFsX3Bob25lMyZlcz0xNzkyNDA5MjI1JnV1aWQ9M2I4ZjE5YzU5YzY2N2VhZDc2OWU0ODQxNzM0NTI5YTYtNmEwZTI2Mzcmcz02ODY2NTBkOTYwYzc0OTQ3YWVlNDYzZDY0YWI5OGE2MSZ1aWQ9Jm5kdj1pb3MtNi41LjAmdj0yJmFzPTAmX2NhckNvZGU9MA,,/JYKTMPP360.m3u8"
   },
   {
     "name": "祁门综合",
@@ -1128,16 +1146,10 @@
     "url": "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&amp;amp;tpid=1516989100&amp;amp;type=0"
   },
   {
-    "name": "定襄综合",
+    "name": "平遥新闻综合",
     "type": 0,
     "playerType": 2,
-    "url": "http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd"
-  },
-  {
-    "name": "怀仁综合",
-    "type": 0,
-    "playerType": 2,
-    "url": "https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8"
+    "url": "https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd"
   },
   {
     "name": "汾西综合",
@@ -1191,7 +1203,7 @@
     "name": "广东珠江",
     "type": 0,
     "playerType": 2,
-    "url": "http://cdn2.163189.xyz/live/gdzj/stream.m3u8"
+    "url": "http://r.jdshipin.com/sE5vO"
   },
   {
     "name": "广州新闻",
@@ -1210,6 +1222,18 @@
     "type": 0,
     "playerType": 2,
     "url": "http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8"
+  },
+  {
+    "name": "河源公共",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8"
+  },
+  {
+    "name": "河源综合",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8"
   },
   {
     "name": "泰山白云亭悬崖",
@@ -1234,12 +1258,6 @@
     "type": 0,
     "playerType": 2,
     "url": "https://cdn8.163189.xyz/live/lhxj/stream.m3u8"
-  },
-  {
-    "name": "龙华日韩",
-    "type": 0,
-    "playerType": 2,
-    "url": "https://cdn8.163189.xyz/live/lhrh/stream.m3u8"
   },
   {
     "name": "龙华洋片",
@@ -1311,13 +1329,13 @@
     "name": "伊犁经济法制",
     "type": 0,
     "playerType": 2,
-    "url": "http://110.153.180.106:55555/out_4/index.m3u8?zxinjd"
+    "url": "http://110.153.180.106:55555/out_4/index.m3u8"
   },
   {
     "name": "伊犁维吾尔",
     "type": 0,
     "playerType": 2,
-    "url": "http://110.153.180.106:55555/out_2/index.m3u8"
+    "url": "http://110.153.180.106:55555/out_2/index.m3u8?zxinjd"
   },
   {
     "name": "兵团五师双河影",
@@ -1410,6 +1428,18 @@
     "url": "http://live.xysrmt.cn/shpd/sd/live.m3u8?zjiangsd"
   },
   {
+    "name": "武进新闻",
+    "type": 0,
+    "playerType": 2,
+    "url": "https://live.wjyanghu.com/live/CH1.m3u8"
+  },
+  {
+    "name": "武进生活",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://live.wjyanghu.com/live/CH2.m3u8"
+  },
+  {
     "name": "江苏南京牛首山",
     "type": 0,
     "playerType": 2,
@@ -1419,7 +1449,7 @@
     "name": "浙江钱江都市",
     "type": 0,
     "playerType": 2,
-    "url": "http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
   },
   {
     "name": "苏州4K",
@@ -1635,7 +1665,7 @@
     "name": "之江纪录",
     "type": 0,
     "playerType": 2,
-    "url": "https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8"
+    "url": "http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8"
   },
   {
     "name": "云和新闻综合",
@@ -1659,7 +1689,7 @@
     "name": "余姚综合",
     "type": 0,
     "playerType": 2,
-    "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8?zzhed"
+    "url": "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8"
   },
   {
     "name": "余杭未来E",
@@ -1695,7 +1725,7 @@
     "name": "嘉兴新闻综合",
     "type": 0,
     "playerType": 2,
-    "url": "http://tvfile.jyrmt.cn:80/nmip-media/channellive/channel104452/playlist.m3u8"
+    "url": "http://live.zohi.tv/video/s10001-fztv-1/index.m3u8"
   },
   {
     "name": "嵊州新闻综合",
@@ -1809,19 +1839,19 @@
     "name": "浙江少儿",
     "type": 0,
     "playerType": 2,
-    "url": "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?"
+    "url": "http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8"
   },
   {
     "name": "浙江教科",
     "type": 0,
     "playerType": 2,
-    "url": "http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
   },
   {
     "name": "浙江教科影视",
     "type": 0,
     "playerType": 2,
-    "url": "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8"
+    "url": "http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8"
   },
   {
     "name": "浙江教科影院",
@@ -1839,7 +1869,7 @@
     "name": "浙江数码时代",
     "type": 0,
     "playerType": 2,
-    "url": "http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8"
+    "url": "http://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8?zzhed"
   },
   {
     "name": "浙江新闻",
@@ -1851,13 +1881,13 @@
     "name": "浙江民生",
     "type": 0,
     "playerType": 2,
-    "url": "http://ali-m-l.cztv.com/channels/lantian/channel06/1080p.m3u8"
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?"
   },
   {
     "name": "浙江民生休闲",
     "type": 0,
     "playerType": 2,
-    "url": "http://ali-vl.cztv.com/channels/lantian/channel006/360p.m3u8"
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8"
   },
   {
     "name": "浙江生活",
@@ -1875,7 +1905,7 @@
     "name": "浙江经济",
     "type": 0,
     "playerType": 2,
-    "url": "http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
   },
   {
     "name": "浙江遂昌",
@@ -1953,7 +1983,7 @@
     "name": "萧山生活",
     "type": 0,
     "playerType": 2,
-    "url": "https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
+    "url": "http://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8"
   },
   {
     "name": "萧山生活频道",
@@ -2079,7 +2109,7 @@
     "name": "浙江公共新闻",
     "type": 0,
     "playerType": 2,
-    "url": "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
+    "url": "http://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8"
   },
   {
     "name": "荆门新闻综合",
@@ -2103,13 +2133,13 @@
     "name": "凤凰中文",
     "type": 0,
     "playerType": 2,
-    "url": "http://43.152.224.209/qctv.fengshows.cn/live/0701pcc72.flv"
+    "url": "http://r.jdshipin.com/cCCzW"
   },
   {
     "name": "凤凰资讯",
     "type": 0,
     "playerType": 2,
-    "url": "http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv"
+    "url": "http://r.jdshipin.com/0Rp07"
   },
   {
     "name": "凤凰资讯台",
@@ -2121,7 +2151,7 @@
     "name": "凤凰香港",
     "type": 0,
     "playerType": 2,
-    "url": "http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv"
+    "url": "http://r.jdshipin.com/NfC0f"
   },
   {
     "name": "凤凰香港台",
@@ -2220,6 +2250,12 @@
     "url": "https://live.metshop.top/huya/11601968"
   },
   {
+    "name": "湖南娱乐频道",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTA2LjE0LjM4LjU1JnRlcm09NSZtYWNpZD02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJnFpZD0mcmF1dGhfZW5hYmxlPW9uJmNkbmV4X2lkPWFsX3Bob25lMyZlcz0xNzkyNDA5MjI1JnV1aWQ9M2I4ZjE5YzU5YzY2N2VhZDc2OWU0ODQxNzM0NTI5YTYtNmEwZTI2Mzcmcz02ODY2NTBkOTYwYzc0OTQ3YWVlNDYzZDY0YWI5OGE2MSZ1aWQ9Jm5kdj1pb3MtNi41LjAmdj0yJmFzPTAmX2NhckNvZGU9MA,,/JYKTMPP360.m3u8"
+  },
+  {
     "name": "湖南张家界天门山西线玻璃栈道",
     "type": 0,
     "playerType": 2,
@@ -2242,6 +2278,18 @@
     "type": 0,
     "playerType": 2,
     "url": "https://gcalic.v.myalicdn.com/gc/zjjsrsm_1/index.m3u8"
+  },
+  {
+    "name": "湖南爱晚",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTA2LjE0LjM4LjU1JnRlcm09NSZtYWNpZD02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJnFpZD0mcmF1dGhfZW5hYmxlPW9uJmNkbmV4X2lkPWFsX3Bob25lMyZlcz0xNzkyNDA5MjI1JnV1aWQ9M2I4ZjE5YzU5YzY2N2VhZDc2OWU0ODQxNzM0NTI5YTYtNmEwZTI2Mzcmcz02ODY2NTBkOTYwYzc0OTQ3YWVlNDYzZDY0YWI5OGE2MSZ1aWQ9Jm5kdj1pb3MtNi41LjAmdj0yJmFzPTAmX2NhckNvZGU9MA,,/JYKTMPP360.m3u8"
+  },
+  {
+    "name": "湖南都市",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTA2LjE0LjM4LjU1JnRlcm09NSZtYWNpZD02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJnFpZD0mcmF1dGhfZW5hYmxlPW9uJmNkbmV4X2lkPWFsX3Bob25lMyZlcz0xNzkyNDA5MjI1JnV1aWQ9M2I4ZjE5YzU5YzY2N2VhZDc2OWU0ODQxNzM0NTI5YTYtNmEwZTI2Mzcmcz02ODY2NTBkOTYwYzc0OTQ3YWVlNDYzZDY0YWI5OGE2MSZ1aWQ9Jm5kdj1pb3MtNi41LjAmdj0yJmFzPTAmX2NhckNvZGU9MA,,/JYKTMPP360.m3u8"
   },
   {
     "name": "特种兵之火凤凰",
@@ -2394,10 +2442,22 @@
     "url": "https://live.metshop.top/huya/11601986"
   },
   {
+    "name": "金鹰纪实频道",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTA2LjE0LjM4LjU1JnRlcm09NSZtYWNpZD02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJnFpZD0mcmF1dGhfZW5hYmxlPW9uJmNkbmV4X2lkPWFsX3Bob25lMyZlcz0xNzkyNDA5MjI1JnV1aWQ9M2I4ZjE5YzU5YzY2N2VhZDc2OWU0ODQxNzM0NTI5YTYtNmEwZTI2Mzcmcz02ODY2NTBkOTYwYzc0OTQ3YWVlNDYzZDY0YWI5OGE2MSZ1aWQ9Jm5kdj1pb3MtNi41LjAmdj0yJmFzPTAmX2NhckNvZGU9MA,,/JYKTMPP360.m3u8"
+  },
+  {
     "name": "长沙新闻综合",
     "type": 0,
     "playerType": 2,
     "url": "http://ls.qingting.fm/live/4877.m3u8"
+  },
+  {
+    "name": "长沙新闻频道",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTA2LjE0LjM4LjU1JnRlcm09NSZtYWNpZD02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJnFpZD0mcmF1dGhfZW5hYmxlPW9uJmNkbmV4X2lkPWFsX3Bob25lMyZlcz0xNzkyNDA5MjI1JnV1aWQ9M2I4ZjE5YzU5YzY2N2VhZDc2OWU0ODQxNzM0NTI5YTYtNmEwZTI2Mzcmcz02ODY2NTBkOTYwYzc0OTQ3YWVlNDYzZDY0YWI5OGE2MSZ1aWQ9Jm5kdj1pb3MtNi41LjAmdj0yJmFzPTAmX2NhckNvZGU9MA,,/JYKTMPP360.m3u8"
   },
   {
     "name": "韩国电影1",
@@ -2499,7 +2559,19 @@
     "name": "浙江经视",
     "type": 0,
     "playerType": 2,
-    "url": "http://ali-m-l.cztv.com/channels/lantian/channel003/720p.m3u8"
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8"
+  },
+  {
+    "name": "湖南电视剧",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTA2LjE0LjM4LjU1JnRlcm09NSZtYWNpZD02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJnFpZD0mcmF1dGhfZW5hYmxlPW9uJmNkbmV4X2lkPWFsX3Bob25lMyZlcz0xNzkyNDA5MjI1JnV1aWQ9M2I4ZjE5YzU5YzY2N2VhZDc2OWU0ODQxNzM0NTI5YTYtNmEwZTI2Mzcmcz02ODY2NTBkOTYwYzc0OTQ3YWVlNDYzZDY0YWI5OGE2MSZ1aWQ9Jm5kdj1pb3MtNi41LjAmdj0yJmFzPTAmX2NhckNvZGU9MA,,/JYKTMPP360.m3u8"
+  },
+  {
+    "name": "湖南经视",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://phoneal.qing.mgtv.com/nn_live/nn_x64/Y2hzPSZkZWY9MSZ1aXA9MTA2LjE0LjM4LjU1JnRlcm09NSZtYWNpZD02ODZlOGNmOGM4OGU3N2VjOWEwNzkzMjg5ZjUzNDg0MmFiZWM0ZjNjJnFpZD0mcmF1dGhfZW5hYmxlPW9uJmNkbmV4X2lkPWFsX3Bob25lMyZlcz0xNzkyNDA5MjI1JnV1aWQ9M2I4ZjE5YzU5YzY2N2VhZDc2OWU0ODQxNzM0NTI5YTYtNmEwZTI2Mzcmcz02ODY2NTBkOTYwYzc0OTQ3YWVlNDYzZDY0YWI5OGE2MSZ1aWQ9Jm5kdj1pb3MtNi41LjAmdj0yJmFzPTAmX2NhckNvZGU9MA,,/JYKTMPP360.m3u8"
   },
   {
     "name": "福州少儿",
@@ -2529,7 +2601,7 @@
     "name": "福建旅游",
     "type": 0,
     "playerType": 2,
-    "url": "https://live.264788.xyz/channel/fujianlvyou?streamid=599c11c8b284751261b165f4d5765b36&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+    "url": "https://live.264788.xyz/channel/fujianlvyou?streamid=fc58882de71ce4575b66002f2475226b&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
   },
   {
     "name": "福建武夷山玉女峰",
@@ -2577,7 +2649,7 @@
     "name": "辽宁公共",
     "type": 0,
     "playerType": 2,
-    "url": "http://120.76.248.139/live/bfgd/4200000077.m3u8"
+    "url": "http://120.76.248.139/live/bfgd/4200000481.m3u8"
   },
   {
     "name": "辽宁北方",
@@ -2607,7 +2679,7 @@
     "name": "辽宁经济",
     "type": 0,
     "playerType": 2,
-    "url": "http://120.76.248.139/live/bfgd/4200000480.m3u8"
+    "url": "http://120.76.248.139/live/bfgd/4200000076.m3u8"
   },
   {
     "name": "江津新闻",
@@ -2620,6 +2692,12 @@
     "type": 0,
     "playerType": 2,
     "url": "http://222.179.42.129:8181/hls1.m3u8"
+  },
+  {
+    "name": "铜梁综合",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://183.64.174.171:40123/ch1.m3u8?zzhongqd"
   },
   {
     "name": "陕西公共",
@@ -2721,7 +2799,7 @@
     "name": "HOY TV",
     "type": 0,
     "playerType": 2,
-    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=hoytv"
+    "url": "http://r.jdshipin.com/sFw4S"
   },
   {
     "name": "TVBS-Asia",
@@ -2748,10 +2826,10 @@
     "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3"
   },
   {
-    "name": "VIUTV",
+    "name": "ViuTV",
     "type": 0,
     "playerType": 2,
-    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=viutv"
+    "url": "http://r.jdshipin.com/vSJvl"
   },
   {
     "name": "三立戏剧",
@@ -2805,7 +2883,7 @@
     "name": "明珠台",
     "type": 0,
     "playerType": 2,
-    "url": "http://r.jdshipin.com/jUx8K"
+    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=mzt2"
   },
   {
     "name": "民视新闻HD",
@@ -2823,7 +2901,7 @@
     "name": "翡翠台",
     "type": 0,
     "playerType": 2,
-    "url": "http://r.jdshipin.com/GeWKr"
+    "url": "http://r.jdshipin.com/qClQf"
   },
   {
     "name": "翡翠台4K",
@@ -2841,7 +2919,7 @@
     "name": "TVB星河",
     "type": 0,
     "playerType": 2,
-    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=xinghe"
+    "url": "http://r.jdshipin.com/Voac4"
   },
   {
     "name": "乌镇全景",
@@ -2889,7 +2967,7 @@
     "name": "笑傲江湖",
     "type": 0,
     "playerType": 2,
-    "url": "https://live.metshop.top/huya/23865142"
+    "url": "https://live.ottiptv.cc/huya/26355790"
   },
   {
     "name": "鸣沙山",
@@ -2937,7 +3015,7 @@
     "name": "纬来体育",
     "type": 0,
     "playerType": 2,
-    "url": "https://epg.pw/stream/ab6df63b64d0cc44a1f4f029ed847a26fa54a7aebd455578fb05a63f02c22f4b.m3u8"
+    "url": "https://epg.pw/stream/8855a9936e37e608a0ec8a014cce1673dee9c5d68d560da376cc92e5edef2b25.m3u8"
   },
   {
     "name": "足球频道",
@@ -2994,10 +3072,16 @@
     "url": "http://www.goodiptv.club/douyu/9661369"
   },
   {
+    "name": "七龙珠",
+    "type": 0,
+    "playerType": 2,
+    "url": "https://live.ottiptv.cc/huya/11601966"
+  },
+  {
     "name": "中华小当家",
     "type": 0,
     "playerType": 2,
-    "url": "https://live.metshop.top/huya/11342413"
+    "url": "https://live.ottiptv.cc/huya/11342413"
   },
   {
     "name": "名侦探柯南",
@@ -3028,6 +3112,12 @@
     "type": 0,
     "playerType": 2,
     "url": "https://live.ottiptv.cc/yy/1382735626"
+  },
+  {
+    "name": "猫和老鼠",
+    "type": 0,
+    "playerType": 2,
+    "url": "https://live.ottiptv.cc/huya/11352879"
   },
   {
     "name": "韩国EBS少儿",
@@ -3099,7 +3189,7 @@
     "name": "风云音乐",
     "type": 0,
     "playerType": 2,
-    "url": "https://live.264788.xyz/channel/fengyunyinyue?streamid=be37d16b874e7ba11dd383d7ecd75752&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
+    "url": "https://live.264788.xyz/channel/fengyunyinyue?streamid=1b41fb9153cba3ee19bd5d1b323da27e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk"
   },
   {
     "name": "澳门综艺",
@@ -3453,7 +3543,7 @@
     "name": "TVB Plus",
     "type": 0,
     "playerType": 2,
-    "url": "http://r.jdshipin.com/ndGgS"
+    "url": "http://r.jdshipin.com/Nr5jq"
   },
   {
     "name": "Wild Earth",
@@ -3466,12 +3556,6 @@
     "type": 0,
     "playerType": 2,
     "url": "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8"
-  },
-  {
-    "name": "七龙珠",
-    "type": 0,
-    "playerType": 2,
-    "url": "https://live.metshop.top/huya/11601966"
   },
   {
     "name": "三国演义",
@@ -3633,7 +3717,7 @@
     "name": "天龙八部",
     "type": 0,
     "playerType": 2,
-    "url": "https://live.ottiptv.cc/huya/20985816"
+    "url": "https://live.ottiptv.cc/yy/1351814644"
   },
   {
     "name": "如懿传",
@@ -4062,18 +4146,6 @@
     "url": "https://live.ottiptv.cc/yy/1354926650"
   },
   {
-    "name": "狂飙",
-    "type": 0,
-    "playerType": 2,
-    "url": "https://live.ottiptv.cc/yy/1355142167"
-  },
-  {
-    "name": "猫和老鼠",
-    "type": 0,
-    "playerType": 2,
-    "url": "https://live.metshop.top/huya/11352879"
-  },
-  {
     "name": "玫瑰的故事",
     "type": 0,
     "playerType": 2,
@@ -4137,7 +4209,7 @@
     "name": "神雕侠侣",
     "type": 0,
     "playerType": 2,
-    "url": "https://live.ottiptv.cc/huya/11352964"
+    "url": "http://live.ottiptv.cc/yy/1351762426"
   },
   {
     "name": "笑看风云",
@@ -4192,6 +4264,12 @@
     "type": 0,
     "playerType": 2,
     "url": "http://120.76.248.139/live/bfgd/4200000146.m3u8"
+  },
+  {
+    "name": "重温经典",
+    "type": 0,
+    "playerType": 2,
+    "url": "http://8.138.7.223/tv/cwjd.php"
   },
   {
     "name": "野蛮亲家",
@@ -4276,12 +4354,6 @@
     "type": 0,
     "playerType": 2,
     "url": "https://live.ottiptv.cc/huya/29465863"
-  },
-  {
-    "name": "鹿鼎记",
-    "type": 0,
-    "playerType": 2,
-    "url": "https://live.ottiptv.cc/yy/28265277"
   },
   {
     "name": "黄果树六角亭瀑布",
